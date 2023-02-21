@@ -33,4 +33,8 @@ void main() {
 
   print("My dtails are $myInfo");
   print("My level of education is ${myInfo['education']}.");
+
+  //Runes store special character sequences or strings that belong to the unicode UTF-16 symbols
+  Runes love_emoji = new Runes('\u2665');
+  print(new String.fromCharCodes(love_emoji));
 }
